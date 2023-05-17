@@ -6,5 +6,9 @@
 -- Colorschema
 lvim.colorscheme = "gruvbox-material"
 
+-- Modules
+require("config.options")
+require("config.keymaps")
+require("config.autocmds")
 require("plugins")
 

@@ -144,6 +144,13 @@ keybinds {
         bind "Alt -" { Resize "Decrease"; }
         bind "Alt [" { PreviousSwapLayout; }
         bind "Alt ]" { NextSwapLayout; }
+      	bind "Alt x" { CloseFocus; } 
+        bind "Alt H" { GoToPreviousTab; }
+        bind "Alt L" { GoToNextTab; }
+        bind "Alt N" { NewTab; }
+        bind "Alt X" { CloseTab; }
+        bind "Alt f" { ToggleFocusFullscreen; }
+        bind "Alt w" { ToggleFloatingPanes; }
     }
     shared_except "locked" {
         bind "Ctrl g" { SwitchToMode "Locked"; }
@@ -235,8 +242,21 @@ plugins {
 //         white 255 255 255
 //     }
 // }
-theme "catppuccin-mocha"
+theme "default"
 themes {
+  default {
+    bg "#acb0be" // Surface2
+    fg "#cdd6f4"
+    red "#f38ba8"
+    green "#a6e3a1"
+    blue "#89b4fa"
+    yellow "#f9e2af"
+    magenta "#f5c2e7" // Pink
+    orange "#fab387" // Peach
+    cyan "#89dceb" // Sky
+    black "#282828" // Mantle
+    white "#cdd6f4"
+  }
   catppuccin-latte {
     bg "#acb0be" // Surface2
     fg "#acb0be" // Surface2
@@ -250,7 +270,6 @@ themes {
     black "#4c4f69" // Text
     white "#dce0e8" // Crust
   }
-
   catppuccin-mocha {
     bg "#585b70" // Surface2
     fg "#cdd6f4"
