@@ -245,9 +245,9 @@ plugins {
 theme "default"
 themes {
   default {
-    bg "#acb0be" // Surface2
-    fg "#cdd6f4"
-    red "#f38ba8"
+    bg "#585b70" // Surface2
+    fg "#e2cca9"
+    red "#f2594b"
     green "#a6e3a1"
     blue "#89b4fa"
     yellow "#f9e2af"
@@ -255,7 +255,7 @@ themes {
     orange "#fab387" // Peach
     cyan "#89dceb" // Sky
     black "#282828" // Mantle
-    white "#cdd6f4"
+    white "#e2cca9"
   }
   catppuccin-latte {
     bg "#acb0be" // Surface2
