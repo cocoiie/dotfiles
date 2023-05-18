@@ -21,7 +21,7 @@ return {
     no_bold = false,   -- Force no bold
     styles = {
       comments = { "italic" },
-      conditionals = { "bold" },
+      conditionals = {},
       loops = {},
       functions = {},
       keywords = {},
@@ -58,10 +58,10 @@ return {
           information = { "italic" },
         },
         underlines = {
-          errors = { "underline" },
-          hints = { "underline" },
-          warnings = { "underline" },
-          information = { "underline" },
+          errors = {},
+          hints = {},
+          warnings = {},
+          information = {},
         },
       -- lueline = true,
       },
