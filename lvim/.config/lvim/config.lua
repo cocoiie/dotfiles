@@ -4,7 +4,7 @@
 -- Discord: https://discord.com/invite/Xb9B4Ny
 
 -- Colorschema
-lvim.colorscheme = "gruvbox-material"
+lvim.colorscheme = "catppuccin"
 
 -- Modules
 require("config.options")

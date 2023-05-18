@@ -242,21 +242,8 @@ plugins {
 //         white 255 255 255
 //     }
 // }
-theme "default"
+theme "catppuccin-mocha"
 themes {
-  default {
-    bg "#585b70" // Surface2
-    fg "#e2cca9"
-    red "#f2594b"
-    green "#a6e3a1"
-    blue "#89b4fa"
-    yellow "#f9e2af"
-    magenta "#f5c2e7" // Pink
-    orange "#fab387" // Peach
-    cyan "#89dceb" // Sky
-    black "#282828" // Mantle
-    white "#e2cca9"
-  }
   catppuccin-latte {
     bg "#acb0be" // Surface2
     fg "#acb0be" // Surface2
